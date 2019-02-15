@@ -12,7 +12,7 @@ Welcome to the Prime table Generator
 -------------------------
 This program will print a multiplication table of prime numbers given a amount
 4 attempts total
-Type number of primes you want: 10
+Type number of prime numbers you want otherwise default is 10:
 +----+----+----+-----+-----+-----+-----+-----+-----+-----+-----+
 |             Generate 10 prime numbers in a table             |
 +----+----+----+-----+-----+-----+-----+-----+-----+-----+-----+
