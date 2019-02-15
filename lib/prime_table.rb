@@ -56,9 +56,13 @@ puts "4 attempts total"
 
 attempts = 1
 while attempts < 4
-    print "Type number of primes you want: "
+    print "Type number of prime numbers you want otherwise default is 10: "
     total = gets.chomp.to_i
-    table = prime_table(total)
+    if total == 0
+        table = prime_table()
+    else
+        table = prime_table(total)
+    end
     puts table
     puts "Press n to quit or any other key to continue: "
     input = gets.chomp.downcase
@@ -66,4 +70,4 @@ while attempts < 4
     attempts += 1
 end
 puts "You have exceeded the number of attempts" if attempts = 4
-prime_table
+
