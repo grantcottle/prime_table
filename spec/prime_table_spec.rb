@@ -8,7 +8,7 @@ require './lib/prime_table'
 
 describe 'generate_prime_numbers' do
     it 'returns array of 10 consecutive primes' do
-        expect(generate_prime_numbers()).to eq [2,3,5,7,11,13,17,19,23,29]
+        expect(generate_prime_numbers(10)).to eq [2,3,5,7,11,13,17,19,23,29]
     end
 end
 
